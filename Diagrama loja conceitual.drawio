@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-16T13:49:04.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="IbYEWrlszNknki038pjv" version="24.0.7" type="device">
+<mxfile host="app.diagrams.net" modified="2024-03-16T14:00:33.309Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ych0N_wwhkEbDFD-Gpgh" version="24.0.7" type="device">
   <diagram name="Página-1" id="4tVZ33dEEce_6mLnsqYj">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="600" y="160" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SySOI2_HgFE6P1grrO_B-3" value="CLIENTE" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="600" y="380" width="100" height="40" as="geometry" />
+          <mxGeometry x="585" y="380" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SySOI2_HgFE6P1grrO_B-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SySOI2_HgFE6P1grrO_B-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -41,13 +41,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SySOI2_HgFE6P1grrO_B-15" value="telefone" style="ellipse;shape=doubleEllipse;margin=3;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="580" y="300" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="SySOI2_HgFE6P1grrO_B-16" value="" style="endArrow=none;html=1;rounded=0;exitX=0.15;exitY=-0.125;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SySOI2_HgFE6P1grrO_B-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="390" as="sourcePoint" />
-            <mxPoint x="610" y="340" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="727" y="430" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SySOI2_HgFE6P1grrO_B-17" value="valor_produto" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="60" y="250" width="100" height="40" as="geometry" />
@@ -99,6 +93,51 @@
             <mxPoint x="677" y="440" as="sourcePoint" />
             <mxPoint x="727" y="390" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SySOI2_HgFE6P1grrO_B-34" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SySOI2_HgFE6P1grrO_B-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="470" as="sourcePoint" />
+            <mxPoint x="670" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SySOI2_HgFE6P1grrO_B-35" value="quantidade_vendida" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SySOI2_HgFE6P1grrO_B-36" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SySOI2_HgFE6P1grrO_B-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="450" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SySOI2_HgFE6P1grrO_B-37" value="concluido" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SySOI2_HgFE6P1grrO_B-38" value="" style="endArrow=none;html=1;rounded=0;exitX=0.33;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SySOI2_HgFE6P1grrO_B-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="350" as="sourcePoint" />
+            <mxPoint x="630" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SySOI2_HgFE6P1grrO_B-39" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SySOI2_HgFE6P1grrO_B-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="250" as="sourcePoint" />
+            <mxPoint x="650" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SySOI2_HgFE6P1grrO_B-44" value="(1,n)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="178" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SySOI2_HgFE6P1grrO_B-45" value="(0,n)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="168" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SySOI2_HgFE6P1grrO_B-46" value="(1,n)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="208" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SySOI2_HgFE6P1grrO_B-47" value="(1,1)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="318" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SySOI2_HgFE6P1grrO_B-48" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="850" height="850" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
